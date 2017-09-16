@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:persons xmlns:add="http://address.xsd.training.indus.com/"
+	xmlns:nm="http://name.name.xsd.training.indus.com/" xmlns:psn="http://person.xsd.training.indus.com/"
+	xmlns:tns="http://persons.xsd.training.indus.com/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://persons.xsd.training.indus.com/ ../xsd/persons.xsd ">
+	<tns:oneperson>
+		<psn:name>
+			<nm:firstName>nm:sudheer</nm:firstName>
+			<nm:lastName>nm:renukunta</nm:lastName>
+		</psn:name>
+		<psn:address>
+			<add:houseNumber>add:123</add:houseNumber>
+			<add:streetNumber>add:streeet1</add:streetNumber>
+			<add:city>add:sincity</add:city>
+		</psn:address>
+	</tns:oneperson>
+	<tns:twoperson>
+		<psn:name>
+			<nm:firstName>nm:suds</nm:firstName>
+			<nm:lastName>nm:nand</nm:lastName>
+		</psn:name>
+		<psn:address>
+			<add:houseNumber>add:135</add:houseNumber>
+			<add:streetNumber>add:street2</add:streetNumber>
+			<add:city>add:cincinatti</add:city>
+		</psn:address>
+	</tns:twoperson>
+</tns:persons>

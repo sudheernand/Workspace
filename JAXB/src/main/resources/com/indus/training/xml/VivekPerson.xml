@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psn:person xmlns:add="http://address.training.indus.com/"
+	xmlns:nm="http://name.training.indus.com/" xmlns:psn="http://person.training.indus.com/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://person.training.indus.com/ ../xsd/Person.xsd ">
+	<psn:name>
+		<nm:firstName>vivek</nm:firstName>
+		<nm:middleName>vardhan</nm:middleName>
+		<nm:lastName>ravi</nm:lastName>
+	</psn:name>
+	<psn:address>
+
+		<add:houseNumber></add:houseNumber>
+		<add:streetNumber></add:streetNumber>
+		<add:city></add:city>
+		<add:phoneNumber></add:phoneNumber>
+
+
+	</psn:address>
+	
+</psn:person>

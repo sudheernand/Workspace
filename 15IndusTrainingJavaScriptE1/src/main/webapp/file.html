@@ -1,0 +1,65 @@
+
+<html>
+<head>
+<script>
+	var request;
+	function sendInfo() {
+		var v = document.vinform.param1.value;
+		var v2 = document.vinform.param2.value;
+
+		var url = "index.jsp?val=" + v;
+
+		if (window.XMLHttpRequest) {
+			request = new XMLHttpRequest();
+		} else if (window.ActiveXObject) {
+			request = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+
+		try {
+			request.onreadystatechange = getInfo;
+			request.open("GET", url, true);
+			request.send();
+		} catch (e) {
+			alert("Unable to connect to server");
+		}
+	}
+
+	function getInfo() {
+		if (request.readyState == 4) {
+			var val = request.responseText;
+			document.getElementById('amit').innerHTML = val;
+		}
+	}
+</script>
+</head>
+<body>
+	<marquee>
+		<h1>Calc</h1>
+	</marquee>
+	<form name="vinform">
+
+
+
+
+		Parameter 1:<input type="text" name="param1" /> <br> <br>
+		Parameter 2:<input type="text" name="param2" /> <br> <input
+			type="button" value="addition" onClick="sendInfo()">
+	</form>
+	<br>
+	<input type="radio" onclick="add()" /> Addition
+	<br>
+	<input type="radio" onclick="sub()" /> Subtract
+	<br>
+	<input type="radio" onclick="mul()" /> Multiply
+	<br>
+	<input type="radio" onclick="div()" /> Division
+	<br>
+	<br> Result:
+	<input type="text" id="result" value="0" />
+
+
+
+	<span id="amit"> </span>
+
+</body>
+</html>

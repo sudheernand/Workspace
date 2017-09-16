@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wls:weblogic-ejb-jar xmlns:wls="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/ejb-jar_3_1.xsd http://xmlns.oracle.com/weblogic/weblogic-ejb-jar http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.7/weblogic-ejb-jar.xsd">
+    <!--weblogic-version:12.2.1.2-->
+    <wls:weblogic-enterprise-bean>
+        <wls:ejb-name>IndusMessage</wls:ejb-name>
+        <wls:message-driven-descriptor>
+            <wls:destination-jndi-name>JNDIIndusQue</wls:destination-jndi-name>
+            <wls:initial-context-factory>weblogic.jndi.WLInitialContextFactory</wls:initial-context-factory>
+            <wls:provider-url>t3://localhost:9010/</wls:provider-url>
+            <wls:connection-factory-jndi-name>JNDIIndusQueConnectionFac</wls:connection-factory-jndi-name>
+            <wls:max-messages-in-transaction>5</wls:max-messages-in-transaction>
+        </wls:message-driven-descriptor>
+        <wls:jndi-name>jndiIndusMessage</wls:jndi-name>
+        <wls:local-jndi-name>jndiLocalIndusMessage</wls:local-jndi-name>
+    </wls:weblogic-enterprise-bean>
+</wls:weblogic-ejb-jar>

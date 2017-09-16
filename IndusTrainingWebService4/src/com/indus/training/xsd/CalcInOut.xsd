@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://CalinOut.domain.training.indus.com" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:CalInOut="http://CalinOut.domain.training.indus.com">
+
+    <complexType name="CalIn">
+    	<sequence>
+    		<element name="param1" type="double" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="param2" type="double" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="operation" type="string" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="CalOut">
+    <sequence>
+    	<element name="param1" type="double" maxOccurs="1"
+    		minOccurs="1">
+    	</element>
+    	<element name="param2" type="double" maxOccurs="1"
+    		minOccurs="1">
+    	</element>
+    	<element name="result" type="double" maxOccurs="1" minOccurs="1"></element>
+    </sequence>
+
+    </complexType>
+
+    <complexType name="CalException">
+    	<sequence>
+    		<element name="ExId" type="string"></element>
+    		<element name="Message" type="string"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="CalInElement" type="CalInOut:CalIn"></element>
+
+    <element name="CalOutElement" type="CalInOut:CalOut"></element>
+
+    <element name="CalExElement" type="CalInOut:CalException"></element>
+</schema>

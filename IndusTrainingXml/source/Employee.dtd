@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (id, firstName, lastName)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ATTLIST employee eid ID #REQUIRED >
+<!ATTLIST employee lang (Java|C|Python) "Java" >
+

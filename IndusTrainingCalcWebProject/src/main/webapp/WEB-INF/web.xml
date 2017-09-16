@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>CalcServlet</servlet-name>
+		<display-name>CalcServlet</display-name>
+		<description></description>
+		<servlet-class>com.indus.training.servlet.CalcServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CalciServlet</servlet-name>
+		<display-name>CalciServlet</display-name>
+		<description></description>
+		<servlet-class>com.indus.training.servlet.CalcServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CalcOutServlet</servlet-name>
+		<display-name>CalcOutServlet</display-name>
+		<description></description>
+		<servlet-class>com.indus.training.servlet.CalcOutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CalcInterServlet</servlet-name>
+		<display-name>CalcInterServlet</display-name>
+		<description></description>
+		<servlet-class>com.indus.training.servlet.CalcInterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CalcServlet</servlet-name>
+		<url-pattern>/CalcServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CalciServlet</servlet-name>
+		<url-pattern>/CalciServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CalcOutServlet</servlet-name>
+		<url-pattern>/CalcOutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CalcInterServlet</servlet-name>
+		<url-pattern>/CalcInterServlet</url-pattern>
+	</servlet-mapping>
+</web-app>

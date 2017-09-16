@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org:address xmlns:org="http://organization.training.indus.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://organization.training.indus.com Oraganization.xsd ">
+  <org:name>
+    <org:firstName>org:firstName</org:firstName>
+    <org:lastName>org:lastName</org:lastName>
+  </org:name>
+  <org:address>
+    <org:streetName>org:streetName</org:streetName>
+    <org:aptNo>org:aptNo</org:aptNo>
+    <org:city>org:city</org:city>
+    <org:state>org:state</org:state>
+    <org:country>org:country</org:country>
+  </org:address>
+</org:address>

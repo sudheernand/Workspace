@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<st:student1 xmlns:add="http://address.xsd.training.indus.com/" xmlns:nm="http://name.name.xsd.training.indus.com/" xmlns:st="http://www.student.name.xsd.training.indus.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.student.name.xsd.training.indus.com ../xsd/name/student.xsd ">
+  <st:name>
+    <nm:firstName>nm:firstName</nm:firstName>
+    <nm:lastName>nm:lastName</nm:lastName>
+  </st:name>
+
+ 
+</st:student1>

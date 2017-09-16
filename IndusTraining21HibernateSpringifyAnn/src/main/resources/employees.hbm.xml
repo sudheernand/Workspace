@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping package="com.indus.training.persist.entity">
+	<class name="Employee" table="EMPLOYEES">
+		<id name="employee_id" column="EMPLOYEE_ID">
+			<generator class="assigned"/>
+		</id>
+		<property name="first_name" column="FIRST_NAME" />
+		<property name="last_name" column="LAST_NAME" />
+		<property name="job_id" column="JOB_ID" />
+		<property name="email" column="EMAIL" />
+		<property name="phoneNumber" column="PHONE_NUMBER" />
+		<property name="manager_id" column="MANAGER_ID" />
+		<property name="salary" column="SALARY" />
+		<property name="Commision_pct" column="COMMISSION_PCT" />
+		<property name="department_id" column="DEPARTMENT_ID" />
+		<property name="hire_date" column="HIRE_DATE" />
+	</class>
+
+</hibernate-mapping>

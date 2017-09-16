@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+"http://struts.apache.org/dtds/struts-config_1_3.dtd">
+           
+<struts-config>
+    <form-beans>      
+        <form-bean name="loginForm" type="com.indus.training.ui.model.LoginForm"/>
+    </form-beans>
+    <action-mappings>
+        <action name="loginForm" path="/login" type="com.indus.training.ui.action.LoginAction" scope="request" input="/view/login.jsp">
+            <forward name="failure" path="/Login.do" redirect="true"/>
+            <forward name="success" path="/Success.do" redirect="true"/>
+        </action>
+        <action path="/Login" forward="/view/login.jsp"></action>
+		<action path="/Success" forward="/view/success.jsp"></action>
+    </action-mappings>
+</struts-config>

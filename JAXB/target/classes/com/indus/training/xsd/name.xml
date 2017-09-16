@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nm:name xmlns:nm="http://name.name.xsd.training.indus.com/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://name.name.xsd.training.indus.com/ name.xsd ">
+  <nm:firstName>nm:firstName</nm:firstName>
+  <nm:lastName>nm:lastName</nm:lastName>
+</nm:name>

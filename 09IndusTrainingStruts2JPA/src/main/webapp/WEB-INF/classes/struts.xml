@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="indus" namespace="/" extends="struts-default">
+		<action name="EmpProcess" method="getDetails"
+			class="com.indus.training.ui.model.EmployeeProcessor">
+			<result name="success">/view/EmpOut.jsp</result>
+		</action>
+		<action name="getDetails" method="getDetails"
+			class="com.indus.training.ui.model.EmployeeProcessor">
+			<result name="success">/view/EmpOut.jsp</result>
+		</action>
+		
+		<action name="EmpInput">
+			<result>/view/EmpIn.jsp</result>
+		</action>
+
+		<action name="EmpOutput">
+			<result>EmpOut.jsp</result>
+		</action>
+	</package>
+</struts>

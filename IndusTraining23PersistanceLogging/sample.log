@@ -1,0 +1,710 @@
+737  [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+0    [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+32   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@77afea7d
+33   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@77afea7d
+33   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@77afea7d
+35   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2f410acf
+37   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@5679c6c6
+39   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@7cef4e59
+43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@6d1e7682
+43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@6d1e7682
+43   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6d1e7682
+46   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@2a098129
+46   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@2a098129
+46   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2a098129
+50   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@567d299b
+50   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@567d299b
+50   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@567d299b
+52   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@1761e840
+52   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@1761e840
+53   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@1761e840
+56   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@29444d75
+56   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@29444d75
+56   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@29444d75
+60   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@768debd
+60   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@768debd
+60   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@768debd
+63   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@42f30e0a
+63   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@42f30e0a
+64   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@42f30e0a
+69   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@4f4a7090
+70   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@4f4a7090
+78   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@ba4d54
+78   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@ba4d54
+80   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@67117f44
+80   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@67117f44
+83   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@763d9750
+84   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@50675690
+87   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@3930015a
+87   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@3930015a
+92   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@1c53fd30
+93   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1c53fd30
+97   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@64c64813
+98   [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@64c64813
+101  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@7a92922
+101  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7a92922
+101  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7a92922
+105  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5474c6c
+108  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@445b84c0
+108  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@445b84c0
+108  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@445b84c0
+110  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@63d4e2ba
+112  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@7cdbc5d3
+113  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7cdbc5d3
+115  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@34340fab
+115  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@34340fab
+117  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@546a03af
+118  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@546a03af
+119  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@6833ce2c
+119  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6833ce2c
+122  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@256216b3
+122  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@256216b3
+123  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@16c0663d
+125  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@3c5a99da
+127  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@11531931
+127  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@11531931
+127  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@11531931
+129  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7cf10a6f
+129  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7cf10a6f
+129  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7cf10a6f
+131  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@c818063
+132  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@2c8d66b2
+132  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@2c8d66b2
+132  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@2c8d66b2
+134  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@129a8472
+134  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@129a8472
+134  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@129a8472
+135  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@6b71769e
+136  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@4c203ea1
+143  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@19dfb72a
+143  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@19dfb72a
+144  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@3d24753a
+150  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@13969fbe
+150  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@13969fbe
+156  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@3b81a1bc
+157  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3b81a1bc
+158  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4e04a765
+160  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@735f7ae5
+164  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@5315b42e
+172  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@3567135c
+173  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3567135c
+174  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@90f6bfd
+174  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@47f6473
+175  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@15975490
+175  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6b143ee9
+175  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1936f0f5
+175  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6615435c
+175  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@4909b8da
+175  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3a03464
+210  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+224  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+228  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+231  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+251  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+252  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+253  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+253  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+255  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+256  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+259  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+260  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+260  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+261  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+262  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+263  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+263  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+264  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+265  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+273  [main] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+273  [main] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+408  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+408  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+408  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+449  [main] DEBUG org.hibernate.cfg.Configuration  - connection.driver_class=org.postgresql.Driver
+449  [main] DEBUG org.hibernate.cfg.Configuration  - connection.url=jdbc:postgresql://localhost:5432/mydb
+449  [main] DEBUG org.hibernate.cfg.Configuration  - connection.username=postgres
+449  [main] DEBUG org.hibernate.cfg.Configuration  - connection.password=27406298
+450  [main] DEBUG org.hibernate.cfg.Configuration  - connection.pool_size=1
+450  [main] DEBUG org.hibernate.cfg.Configuration  - dialect=org.hibernate.dialect.PostgreSQL82Dialect
+450  [main] DEBUG org.hibernate.cfg.Configuration  - show_sql=true
+450  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [employee.hbm.xml] for mapping
+450  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: employee.hbm.xml
+518  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+518  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+518  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+565  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [department.hbm.xml] for mapping
+566  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: department.hbm.xml
+569  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+569  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+570  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+589  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+589  [main] DEBUG org.hibernate.cfg.Configuration  - Properties: {hibernate.connection.password=27406298, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, java.vm.version=25.121-b13, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sudheer/IndusTraining/IndusIDE/IndusTrainingPersistanceLogging, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, hibernate.connection.pool_size=1, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.4.0-66-generic, connection.password=27406298, user.home=/home/sudheer, user.timezone=, connection.username=postgres, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=org.postgresql.Driver, show_sql=true, user.name=sudheer, java.class.path=/home/sudheer/IndusTraining/IndusIDE/IndusTrainingPersistanceLogging/target/test-classes:/home/sudheer/IndusTraining/IndusIDE/IndusTrainingPersistanceLogging/target/classes:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/plugins/org.junit_4.12.0.v201504281640/junit.jar:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/home/sudheer/.m2/repository/log4j/log4j/1.2.15/log4j-1.2.15.jar:/home/sudheer/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/home/sudheer/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/sudheer/.m2/repository/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.jar:/home/sudheer/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar:/home/sudheer/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/sudheer/.m2/repository/org/postgresql/postgresql/9.3-1102-jdbc41/postgresql-9.3-1102-jdbc41.jar:/home/sudheer/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/home/sudheer/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/home/sudheer/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/home/sudheer/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/home/sudheer/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/sudheer/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/sudheer/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/home/sudheer/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/sudheer/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/sudheer/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar:/home/sudheer/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/sudheer/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/configuration/org.eclipse.osgi/299/0/.cp/:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/configuration/org.eclipse.osgi/298/0/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 36841 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.indus.training.test.TestEmployee, java.home=/usr/lib/jvm/java-8-oracle/jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.PostgreSQL82Dialect, hibernate.connection.url=jdbc:postgresql://localhost:5432/mydb, connection.pool_size=1, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, java.vendor=Oracle Corporation, connection.driver_class=org.postgresql.Driver, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=gnome, connection.url=jdbc:postgresql://localhost:5432/mydb, dialect=org.hibernate.dialect.PostgreSQL82Dialect, sun.cpu.isalist=}
+609  [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+612  [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+616  [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+644  [main] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+644  [main] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+727  [main] DEBUG org.hibernate.service.spi.ServiceBinding  - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+728  [main] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+741  [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+795  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/mydb]
+796  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=postgres, password=27406298}
+799  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+804  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 1 (min=1)
+806  [main] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Initializing Connection pool with 1 Connections
+926  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : PostgreSQL
+    version : 9.5.5
+      major : 9
+      minor : 5
+927  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 9.3 JDBC4.1 (build 1102)
+      major : 9
+      minor : 3
+927  [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+933  [main] DEBUG org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport  - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+1229 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+1250 [main] INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+1293 [main] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+1314 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: com.indus.training.persist.entity.Employee -> EMPLOYEES
+1331 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: employeeId -> EMPLOYEE_ID
+1339 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: firstName -> FIRST_NAME
+1340 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: lastName -> LAST_NAME
+1340 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: email -> EMAIL
+1340 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: phoneNumber -> PHONE_NUMBER
+1340 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: hireDate -> HIRE_DATE
+1341 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: jobID -> JOB_ID
+1341 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: salary -> SALARY
+1341 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: commissionPct -> COMMISSION_PCT
+1341 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: managerId -> MANAGER_ID
+1341 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentId -> DEPARTMENT_ID
+1342 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: com.indus.training.persist.entity.Department -> DEPARTMENTS
+1343 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentId -> DEPARTMENT_ID
+1344 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: departmentName -> DEPARTMENT_NAME
+1345 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: managerId -> MANAGER_ID
+1345 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: locationId -> LOCATION_ID
+1345 [main] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+1347 [main] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+1348 [main] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+1351 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - No JtaPlatform was specified, checking resolver
+1352 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator  - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+1356 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver  - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+1362 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+1363 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+1364 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+1364 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+1365 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+1365 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+1365 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+1365 [main] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+1365 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+1365 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+1369 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+1369 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+1370 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+1370 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+1370 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+1370 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+1371 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+1374 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+1374 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+1374 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+1374 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+1374 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+1376 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+1380 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+1380 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic eviction of collection cache: disabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+1381 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+1400 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+1424 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+1424 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=27406298, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, java.vm.version=25.121-b13, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/sudheer/IndusTraining/IndusIDE/IndusTrainingPersistanceLogging, java.runtime.version=1.8.0_121-b13, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, os.arch=amd64, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, sun.jnu.encoding=UTF-8, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.specification.name=Java Platform API Specification, java.class.version=52.0, hibernate.connection.pool_size=1, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=4.4.0-66-generic, user.home=/home/sudheer, connection.password=27406298, user.timezone=, java.awt.printerjob=sun.print.PSPrinterJob, connection.username=postgres, java.specification.version=1.8, file.encoding=UTF-8, hibernate.connection.driver_class=org.postgresql.Driver, show_sql=true, java.class.path=/home/sudheer/IndusTraining/IndusIDE/IndusTrainingPersistanceLogging/target/test-classes:/home/sudheer/IndusTraining/IndusIDE/IndusTrainingPersistanceLogging/target/classes:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/plugins/org.junit_4.12.0.v201504281640/junit.jar:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/home/sudheer/.m2/repository/log4j/log4j/1.2.15/log4j-1.2.15.jar:/home/sudheer/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/home/sudheer/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/sudheer/.m2/repository/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.jar:/home/sudheer/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar:/home/sudheer/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/sudheer/.m2/repository/org/postgresql/postgresql/9.3-1102-jdbc41/postgresql-9.3-1102-jdbc41.jar:/home/sudheer/.m2/repository/org/hibernate/hibernate-core/4.3.11.Final/hibernate-core-4.3.11.Final.jar:/home/sudheer/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar:/home/sudheer/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar:/home/sudheer/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/home/sudheer/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/sudheer/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/sudheer/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.5.Final/hibernate-commons-annotations-4.0.5.Final.jar:/home/sudheer/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/sudheer/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/sudheer/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar:/home/sudheer/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/sudheer/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/configuration/org.eclipse.osgi/299/0/.cp/:/home/sudheer/Downloads/sts-bundle/sts-3.8.3.RELEASE/configuration/org.eclipse.osgi/298/0/.cp/, user.name=sudheer, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=/usr/lib/jvm/java-8-oracle/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 36841 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.indus.training.test.TestEmployee, hibernate.connection.url=jdbc:postgresql://localhost:5432/mydb, hibernate.dialect=org.hibernate.dialect.PostgreSQL82Dialect, java.specification.vendor=Oracle Corporation, user.language=en, connection.pool_size=1, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, java.version=1.8.0_121, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, java.vendor=Oracle Corporation, file.separator=/, connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, connection.url=jdbc:postgresql://localhost:5432/mydb, sun.cpu.isalist=, dialect=org.hibernate.dialect.PostgreSQL82Dialect}
+1445 [main] DEBUG org.hibernate.secure.spi.JaccIntegrator  - Skipping JACC integration as it was not enabled
+1446 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQL82Dialect]
+1447 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQL82Dialect]
+1737 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: com.indus.training.persist.entity.Department
+1737 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select DEPARTMENT_ID from DEPARTMENTS where DEPARTMENT_ID =?
+1737 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select department_.DEPARTMENT_ID, department_.DEPARTMENT_NAME as DEPARTME2_0_, department_.MANAGER_ID as MANAGER_3_0_, department_.LOCATION_ID as LOCATION4_0_ from DEPARTMENTS department_ where department_.DEPARTMENT_ID=?
+1737 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into DEPARTMENTS (DEPARTMENT_NAME, MANAGER_ID, LOCATION_ID, DEPARTMENT_ID) values (?, ?, ?, ?)
+1737 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update DEPARTMENTS set DEPARTMENT_NAME=?, MANAGER_ID=?, LOCATION_ID=? where DEPARTMENT_ID=?
+1737 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from DEPARTMENTS where DEPARTMENT_ID=?
+1779 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4bdeaabb]
+1782 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1782 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1782 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1782 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1811 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1819 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1822 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [NONE]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=?
+1822 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5db6b9cd]
+1822 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1822 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1823 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1823 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1823 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1823 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1823 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [READ]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=?
+1823 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20b2475a]
+1823 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1823 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1823 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1823 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1824 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1824 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1824 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [UPGRADE]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for update
+1824 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f15d60e]
+1824 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1824 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1824 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1824 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1824 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1824 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1824 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [UPGRADE_NOWAIT]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for update nowait 
+1824 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29d80d2b]
+1824 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1824 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1824 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1825 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1825 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1825 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1825 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [UPGRADE_SKIPLOCKED]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for update
+1825 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@446a1e84]
+1825 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1825 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1825 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1825 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1825 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1826 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1826 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [FORCE]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for update nowait 
+1826 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2657d4dd]
+1826 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1826 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1826 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1826 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1826 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1826 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1827 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [PESSIMISTIC_READ]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for share
+1827 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47caedad]
+1827 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1827 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1827 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1827 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1827 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1827 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1827 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [PESSIMISTIC_WRITE]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for update
+1827 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@69504ae9]
+1827 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1827 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1827 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1827 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1827 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1827 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1828 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [PESSIMISTIC_FORCE_INCREMENT]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=? for update nowait 
+1828 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28cda624]
+1828 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1828 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1828 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1828 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1828 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1828 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1828 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [OPTIMISTIC]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=?
+1828 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7eecb5b8]
+1828 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentName
+1828 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1828 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : locationId
+1828 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1828 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1829 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Department)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Department, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Department)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Department)
+          - SQL table alias mapping - department0_
+          - alias suffix - 0_
+          - suffixed key columns - {DEPARTME1_0_0_}
+
+1829 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Department [OPTIMISTIC_FORCE_INCREMENT]: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=?
+1856 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity com.indus.training.persist.entity.Department: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=?
+1856 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity com.indus.training.persist.entity.Department: select department0_.DEPARTMENT_ID as DEPARTME1_0_0_, department0_.DEPARTMENT_NAME as DEPARTME2_0_0_, department0_.MANAGER_ID as MANAGER_3_0_0_, department0_.LOCATION_ID as LOCATION4_0_0_ from DEPARTMENTS department0_ where department0_.DEPARTMENT_ID=?
+1856 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: com.indus.training.persist.entity.Employee
+1856 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select EMPLOYEE_ID from EMPLOYEES where EMPLOYEE_ID =?
+1856 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select employee_.EMPLOYEE_ID, employee_.FIRST_NAME as FIRST_NA2_1_, employee_.LAST_NAME as LAST_NAM3_1_, employee_.EMAIL as EMAIL4_1_, employee_.PHONE_NUMBER as PHONE_NU5_1_, employee_.HIRE_DATE as HIRE_DAT6_1_, employee_.JOB_ID as JOB_ID7_1_, employee_.SALARY as SALARY8_1_, employee_.COMMISSION_PCT as COMMISSI9_1_, employee_.MANAGER_ID as MANAGER10_1_, employee_.DEPARTMENT_ID as DEPARTM11_1_ from EMPLOYEES employee_ where employee_.EMPLOYEE_ID=?
+1857 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into EMPLOYEES (FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_ID) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+1857 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update EMPLOYEES set FIRST_NAME=?, LAST_NAME=?, EMAIL=?, PHONE_NUMBER=?, HIRE_DATE=?, JOB_ID=?, SALARY=?, COMMISSION_PCT=?, MANAGER_ID=?, DEPARTMENT_ID=? where EMPLOYEE_ID=?
+1857 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from EMPLOYEES where EMPLOYEE_ID=?
+1857 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@69ee81fc]
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1857 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1857 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1857 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1858 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1858 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [NONE]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+1859 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f36c2f0]
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1859 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1859 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1860 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1860 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1860 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [READ]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+1860 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1224144a]
+1860 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1860 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1860 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1860 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1860 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1861 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1861 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1861 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1861 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1861 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1861 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1861 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1861 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1861 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [UPGRADE]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for update
+1862 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@700fb871]
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1862 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1863 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1863 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1863 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1863 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [UPGRADE_NOWAIT]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for update nowait 
+1863 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9816741]
+1863 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1863 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1863 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1863 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1863 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1863 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1864 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1864 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1864 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1864 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1864 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1864 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1864 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1864 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [UPGRADE_SKIPLOCKED]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for update
+1864 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@13d73f29]
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1865 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1865 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1865 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1866 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1866 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [FORCE]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for update nowait 
+1866 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7dc3712]
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1866 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1866 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1867 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1867 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1867 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [PESSIMISTIC_READ]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for share
+1867 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5e3f861]
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1867 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1867 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1868 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1868 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1868 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [PESSIMISTIC_WRITE]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for update
+1868 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@49b2a47d]
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1868 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1869 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1869 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1869 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1870 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [PESSIMISTIC_FORCE_INCREMENT]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=? for update nowait 
+1870 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@415b0b49]
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1870 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1870 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1870 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1871 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1871 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [OPTIMISTIC]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+1871 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@311bf055]
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : email
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : hireDate
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : jobID
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : salary
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : commissionPct
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : managerId
+1871 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : departmentId
+1871 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+1871 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+1872 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=com.indus.training.persist.entity.Employee)
+    - Returns
+       - EntityReturnImpl(entity=com.indus.training.persist.entity.Employee, querySpaceUid=<gen:0>, path=com.indus.training.persist.entity.Employee)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.indus.training.persist.entity.Employee)
+          - SQL table alias mapping - employee0_
+          - alias suffix - 0_
+          - suffixed key columns - {EMPLOYEE1_1_0_}
+
+1872 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity com.indus.training.persist.entity.Employee [OPTIMISTIC_FORCE_INCREMENT]: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+1872 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity com.indus.training.persist.entity.Employee: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+1872 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity com.indus.training.persist.entity.Employee: select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+1879 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3e2055d6
+1883 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: a384435a-26b9-40ca-922c-d199028e08b9 (<unnamed>)
+1883 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+1883 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+1884 [main] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named HQL queries
+1884 [main] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named SQL queries
+1895 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
+1976 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+1976 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+1977 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+1977 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+2057 [main] DEBUG org.hibernate.SQL  - select employee0_.EMPLOYEE_ID as EMPLOYEE1_1_0_, employee0_.FIRST_NAME as FIRST_NA2_1_0_, employee0_.LAST_NAME as LAST_NAM3_1_0_, employee0_.EMAIL as EMAIL4_1_0_, employee0_.PHONE_NUMBER as PHONE_NU5_1_0_, employee0_.HIRE_DATE as HIRE_DAT6_1_0_, employee0_.JOB_ID as JOB_ID7_1_0_, employee0_.SALARY as SALARY8_1_0_, employee0_.COMMISSION_PCT as COMMISSI9_1_0_, employee0_.MANAGER_ID as MANAGER10_1_0_, employee0_.DEPARTMENT_ID as DEPARTM11_1_0_ from EMPLOYEES employee0_ where employee0_.EMPLOYEE_ID=?
+2067 [main] DEBUG org.hibernate.loader.plan.exec.process.internal.ResultSetProcessorImpl  - Starting ResultSet row #0
+2069 [main] DEBUG org.hibernate.loader.plan.exec.process.internal.EntityReferenceInitializerImpl  - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+2087 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [com.indus.training.persist.entity.Employee#167]
+2091 [main] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [com.indus.training.persist.entity.Employee#167]
+2092 [main] DEBUG org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader  - Done entity load : com.indus.training.persist.entity.Employee#167
+2093 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+2094 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+2099 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+2102 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2102 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2103 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+2104 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - com.indus.training.persist.entity.Employee{firstName=Amit, lastName=Banda, jobID=SA_REP, hireDate=2000-04-21 00:00:00.0, phoneNumber=011.44.1346.729268, departmentId=80, employeeId=167, managerId=147, salary=6200.00, email=ABANDA, commissionPct=0.10}
+2106 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - committed JDBC Connection

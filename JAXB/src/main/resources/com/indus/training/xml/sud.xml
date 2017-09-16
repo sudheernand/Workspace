@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psn:person xmlns:add="http://address.xsd.training.indus.com/"
+	xmlns:nm="http://name.name.xsd.training.indus.com/" xmlns:psn="http://person.xsd.training.indus.com/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://person.xsd.training.indus.com/ ../xsd/person.xsd ">
+	<psn:name>
+		<nm:firstName>nm:firstName</nm:firstName>
+		<nm:lastName>nm:lastName</nm:lastName>
+	</psn:name>
+	<psn:address>
+		<add:houseNumber>add:houseNumber</add:houseNumber>
+		<add:streetNumber>add:streetNumber</add:streetNumber>
+		<add:city>add:city</add:city>
+	</psn:address>
+
+
+
+
+</psn:person>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://organization.training.indus.com" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:add="http://organization.training.indus.com">
+
+    <complexType name="Address">
+    	<sequence>
+    		<element name="streetName" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="aptNo" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="houseNo" type="string"></element>
+    		<element name="country" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="zipcode" type="string" maxOccurs="1" minOccurs="1"></element>
+    		<element name="state" type="string" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+</schema>

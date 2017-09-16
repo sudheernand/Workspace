@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="carBean" class="com.indus.training.domain.impl.Civic">
+	</bean>
+	<bean id="bodyBean" class="com.indus.training.domain.impl.CivicBody">
+	</bean>
+	<bean id="engineBean" class="com.indus.training.domain.impl.CivicEngine">
+	</bean>
+	<bean id="seatBean" class="com.indus.training.domain.impl.LeatherSeat">
+	</bean>
+	<bean id="tyreBean" class="com.indus.training.domain.impl.GoodYear">
+	</bean>
+	
+</beans>

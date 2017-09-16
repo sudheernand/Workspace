@@ -1,0 +1,45 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <filter>
+  	<filter-name>FilterExample</filter-name>
+  	<display-name>FilterExample</display-name>
+  	<description></description>
+  	<filter-class>com.indus.training.filter.FilterExample</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>FilterExample</filter-name>
+  	<url-pattern>*</url-pattern>
+  </filter-mapping>
+  <listener>
+  	<listener-class>com.indus.training.listner.ContextListner</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>com.indus.training.listner.ContextAttribute</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>com.indus.training.listner.ContextHttpLifecycle</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>com.indus.training.listner.ContextHttpAttributes</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>com.indus.training.listner.ContextSessionMigration</listener-class>
+  </listener>
+  <listener>
+  	<listener-class>com.indus.training.listner.ContextObjectBinding</listener-class>
+  </listener>
+  <servlet>
+  	<servlet-name>CalProcesservlet</servlet-name>
+  	<display-name>CalProcesservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.inus.training.servlet.CalProcesservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CalProcesservlet</servlet-name>
+  	<url-pattern>/CalProcesservlet</url-pattern>
+  </servlet-mapping>
+</web-app>

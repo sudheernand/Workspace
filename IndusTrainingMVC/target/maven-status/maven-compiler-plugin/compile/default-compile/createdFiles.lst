@@ -1,0 +1,5 @@
+com/indus/training/domain/CalcOutputs.class
+com/indus/training/domain/CalcInputs.class
+com/indus/training/domain/ICalculator.class
+com/indus/training/service/Calculator.class
+com/indus/training/servlet/ControllerServlet.class

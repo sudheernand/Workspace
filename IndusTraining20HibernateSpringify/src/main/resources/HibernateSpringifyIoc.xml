@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean id="employeeDAOBean" class="com.indus.training.persist.impl.EmployeeDAO">
+		<property name="sessionFactory" ref="sessionBean"></property>
+
+	</bean>
+
+
+	<bean id="sessionBean" factory-bean="hibernateBean"
+		factory-method="buildSessionFactory">
+	</bean>
+	<bean id="hibernateBean" class="com.indus.training.utils.HibernateUtil"
+		scope="singleton">
+	</bean>
+
+
+</beans>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+
+	<form-beans>
+		<form-bean name="calciInputForm" type="com.indus.training.ui.model.CalciInput" />
+		<form-bean name="calciOutputForm" type="com.indus.training.ui.model.CalciOutput" />
+	</form-beans>
+
+	<action-mappings>
+		<action path="/CalciProcess" input="/view/Input.jsp" name="calciInputForm"
+			scope="session" type="com.indus.training.ui.action.Calculator">
+			<forward name="success" path="/CalciOutput.do" />
+			<forward name="failure" path="/CalciInput.do" />
+		</action>
+		<action path="/CalciInput" forward="/view/Input.jsp"></action>
+		<action path="/CalciOutput" forward="/view/Output.jsp"></action>
+	</action-mappings>
+	
+	<controller>
+		<set-property property="processorClass"
+			value="org.springframework.web.struts.DelegatingRequestProcessor" />
+	</controller>
+	
+	<plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
+		<set-property property="contextConfigLocation"
+			value="/WEB-INF/spring-config.xml" />
+	</plug-in>
+
+
+</struts-config>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://organization.indus.com"
+	elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.org/training" xmlns:org="http://organization.indus.com">
+
+    <xsd:complexType name="Name">
+    	<xsd:sequence>
+    		<xsd:element name="firstName" type="xsd:string" maxOccurs="1"
+    			minOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="middleName" type="xsd:string" maxOccurs="1"
+    			minOccurs="0">
+    		</xsd:element>
+    		<xsd:element name="lastName" type="xsd:string" maxOccurs="1"
+    			minOccurs="1">
+    		</xsd:element>
+    		<xsd:element name="maidenName" type="xsd:string" maxOccurs="1" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="name" type="org:Address"></xsd:element>
+
+
+    <xsd:complexType name="Person">
+    	<xsd:choice>
+    		<xsd:element name="Name" type="org:Name"></xsd:element>
+    		<xsd:element name="Address" type="org:Address"></xsd:element>
+    	</xsd:choice>
+    </xsd:complexType>
+
+    <xsd:complexType name="Address">
+    	<xsd:choice>
+    		<xsd:element name="StreetNo" type="xsd:string"></xsd:element>
+    		<xsd:element name="City" type="xsd:string"></xsd:element>
+    	</xsd:choice>
+    </xsd:complexType>
+
+    <xsd:element name="address" type="xsd:string"></xsd:element>
+</xsd:schema>

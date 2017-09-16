@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://person.xsd.training.indus.com/"
+	elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:psn="http://person.xsd.training.indus.com/" xmlns:nm="http://name.name.xsd.training.indus.com/" xmlns:add="http://address.xsd.training.indus.com/" xmlns:pref="http://address.xsd.training.indus.com/" xmlns:pref1="http://name.name.xsd.training.indus.com/">
+
+
+	<xsd:import schemaLocation="address.xsd"
+		namespace="http://address.xsd.training.indus.com/">
+	</xsd:import>
+	<xsd:import schemaLocation="name/name.xsd"
+		namespace="http://name.name.xsd.training.indus.com/"></xsd:import>
+	<xsd:complexType name="Person">
+		<xsd:sequence>
+			<xsd:element name="name" type="nm:Name" maxOccurs="1"
+				minOccurs="1">
+			</xsd:element>
+			<xsd:element name="address" type="add:Address" maxOccurs="unbounded"
+				minOccurs="1">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:element name="person" type="psn:Person"></xsd:element>
+</xsd:schema>

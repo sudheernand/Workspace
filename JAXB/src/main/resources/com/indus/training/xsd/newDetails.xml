@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Office xmlns:tns="http://www.example.org/newDetails" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/newDetails newDetails.xsd ">
+  <tns:house>tns:house</tns:house>
+  <tns:namenew>tns:namenew</tns:namenew>
+</tns:Office>

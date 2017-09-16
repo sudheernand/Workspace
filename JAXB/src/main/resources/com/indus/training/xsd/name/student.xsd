@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.student.name.xsd.training.indus.com"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:add="http://address.xsd.training.indus.com/" xmlns:name="http://organization.training.indus.com" xmlns:nm="http://name.name.xsd.training.indus.com/" xmlns:st="http://www.student.name.xsd.training.indus.com">
+
+
+
+	<import schemaLocation="../address.xsd"
+		namespace="http://address.xsd.training.indus.com/">
+	</import>
+	<import schemaLocation="name.xsd" namespace="http://name.name.xsd.training.indus.com/"></import>
+
+	<complexType name="Student">
+		<sequence>
+			<element name="address" type="add:Address" maxOccurs="unbounded" minOccurs="0"></element>
+			<element name="name" type="nm:Name" maxOccurs="1" minOccurs="1"></element>
+		</sequence>
+	</complexType>
+
+	<element name="student1" type="st:Student"></element>
+
+
+	<element name="student2" type="st:Student"></element>
+</schema>

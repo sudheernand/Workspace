@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="IndusTrainingEjb3Jms">
+        <wb-resource deploy-path="/" source-path="/ejbModule" tag="defaultRootSource"/>
+        <property name="java-output-path" value="/IndusTrainingEjb3Jms/build/classes"/>
+        <property name="ClientProject" value="IndusTrainingEjb3JmsClient"/>
+        <property name="ClientJARURI" value="IndusTrainingEjb3JmsClient.jar"/>
+    </wb-module>
+</project-modules>
