@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'maven_3_6_0') {
-                    bat 'mvn -f ./JenkinsPipelineTest/pom.xml <clean compile>'
+                    bat 'mvn -f ./JenkinsPipelineTest/pom.xml clean compile'
                    
                 }
             }
@@ -16,14 +16,14 @@ pipeline {
 
             steps {
                 withMaven(maven : 'maven_3_6_0') {
-                    bat 'mvn -f ./JenkinsPipelineTest/pom.xml <test>'
+                    bat 'mvn -f ./JenkinsPipelineTest/pom.xml test'
                 }
             }
         }
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'maven_3_6_0') {
-                    bat 'mvn -f ./JenkinsPipelineTest/pom.xml <deploy>'
+                    bat 'mvn -f ./JenkinsPipelineTest/pom.xml deploy'
                 }
             }
         }
