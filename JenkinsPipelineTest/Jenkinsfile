@@ -2,6 +2,15 @@ pipeline {
     agent any
 
     stages {
+     stage ('initial Stage') {
+
+            steps {
+                withMaven(maven : 'maven_3_6_0') {
+                    bat 'cd "JenkinsPipelineTest"'
+                }
+            }
+        }
+    
         stage ('Compile Stage') {
 
             steps {
