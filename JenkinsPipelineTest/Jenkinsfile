@@ -2,20 +2,11 @@ pipeline {
     agent any
 
     stages {
-     stage ('initial Stage') {
-
-            steps {
-                withMaven(maven : 'maven_3_6_0') {
-                    bat 'cd "JenkinsPipelineTest"'
-                }
-            }
-        }
-    
         stage ('Compile Stage') {
 
             steps {
                 withMaven(maven : 'maven_3_6_0') {
-                    bat 'mvn clean compile'
+                    bat 'mvn clean compile --file *.pom'
                 }
             }
         }
@@ -24,7 +15,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'maven_3_6_0') {
-                    bat 'mvn test'
+                    bat 'mvn test --file *.pom'
                 }
             }
         }
@@ -33,7 +24,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'maven_3_6_0') {
-                    bat 'mvn deploy'
+                    bat 'mvn deploy --file *.pom'
                 }
             }
         }
